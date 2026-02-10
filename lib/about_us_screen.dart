@@ -48,9 +48,9 @@ class AboutUsScreen extends StatelessWidget {
             child: Column(
               children: [
                 _buildProfileTile(
-                  name: 'Серікқызы Алуа',
+                  name: 'СТУДЕНТ1',
                   description: 'Astana IT College студенті',
-                  phone: '+7 747 226 9006',
+                  phone: '+7 НОМЕР',
                   icon: Icons.person_outline_rounded,
                   color: Colors.blueAccent,
                 ),
@@ -59,9 +59,9 @@ class AboutUsScreen extends StatelessWidget {
                   child: Divider(height: 1),
                 ),
                 _buildProfileTile(
-                  name: 'Қабыкен Алтынай',
+                  name: 'СТУДЕНТ2',
                   description: 'Astana IT College студенті',
-                  phone: '+7 775 845 4322',
+                  phone: '+7 НОМЕР',
                   icon: Icons.person_outline_rounded,
                   color: Colors.purpleAccent,
                 ),
